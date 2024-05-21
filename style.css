@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-image: url('unnamed (1).png'); /* Set the background image */
+    background-size: cover; /* Make sure the image covers the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-attachment: fixed; /* Make the background image fixed when scrolling */
+    color: white; /* Set the text color to white for better contrast */
+}
+
+header {
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Optional: Add a semi-transparent background for readability */
+    padding: 20px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+button:active {
+    font-size: 18px;
+    color: white;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border: 2px solid lightblue;
+}
+
+input[type="text"]:focus::placeholder {
+    color: gray;
+}
+
+input[type="text"]:not(:placeholder-shown) {
+    color: darkblue;
+}
+
+/* Anchor styles */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: lightblue;
+    text-decoration: underline;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+
+button, input[type="text"], a {
+    transition: all 0.3s ease;
+}
+
+
+input[type="text"]::placeholder {
+    color: lightgray;
+}
+
+input[type="text"]:focus::placeholder {
+    color: gray;
+}
+
+a:visited {
+    color: darkblue;
+}
